@@ -12,6 +12,8 @@
 
 ### About
 
+<img align="right" width="230" src="./assets/loop.gif" alt="">
+
 I'm a student learning to build software by shipping it. Most of what you see here started as a
 weekend idea, a practice task, or a hackathon prototype — small web apps, AI-assisted tools, and
 experiments that taught me something even when they didn't survive.
