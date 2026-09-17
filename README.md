@@ -13,31 +13,31 @@
 
 ---
 
-> student. still learning.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learning by breaking things,
+> student. still learning.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learning by breaking things,<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;mostly.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;who
 
-i build small things. weekend ideas. practice tasks.
-&nbsp;&nbsp;&nbsp;&nbsp;hackathon prototypes that were alive for 48 hours
+i build small things. weekend ideas. practice tasks.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;hackathon prototypes that were alive for 48 hours<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and then weren't.
 
-some of them work. some of them are here anyway —
+some of them work. some of them are here anyway —<br>
 &nbsp;&nbsp;&nbsp;&nbsp;deleting a repo doesn't undo the part where i learned something.
 
-one rule, and i keep it:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**deploy first. be clever later.**
+one rule, and i keep it:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**deploy first. be clever later.**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;a live url on day one beats perfect code nobody can open.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;now
 
 &nbsp;&nbsp;`flask` &nbsp;·&nbsp; `express` &nbsp;— small apps, shipped to render, kept awake by luck
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ai tooling` — learning where a model helps
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ai tooling` — learning where a model helps<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and where plain boring rules are simply better
 
-&nbsp;&nbsp;&nbsp;&nbsp;`hackathons` — a template i can clone at 3am, deploy in under an hour,
+&nbsp;&nbsp;&nbsp;&nbsp;`hackathons` — a template i can clone at 3am, deploy in under an hour,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and demo without praying
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;things
@@ -52,9 +52,9 @@ one rule, and i keep it:
 
 ### &nbsp;&nbsp;next
 
-&nbsp;&nbsp;&nbsp;&nbsp;`tests` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — the ones i keep postponing
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`databases` &nbsp; — beyond sqlite
-&nbsp;&nbsp;`ci` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — that actually runs
+&nbsp;&nbsp;&nbsp;&nbsp;`tests` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — the ones i keep postponing<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`databases` &nbsp; — beyond sqlite<br>
+&nbsp;&nbsp;`ci` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — that actually runs<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`other people's code` — the hardest one
 
 <p align="center">
