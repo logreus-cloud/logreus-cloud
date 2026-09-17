@@ -1,47 +1,62 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Ligreus — student developer, learning in public" width="100%">
+  <img src="./assets/banner.svg" alt="ligreus — student developer, learning in public" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/projects-6%20public-1b1b21?style=flat-square&labelColor=0d0d10" alt="projects"></a>
-  <img src="https://img.shields.io/badge/python-1b1b21?style=flat-square&logo=python&logoColor=c9c9d2&labelColor=0d0d10" alt="python">
-  <img src="https://img.shields.io/badge/javascript-1b1b21?style=flat-square&logo=javascript&logoColor=c9c9d2&labelColor=0d0d10" alt="javascript">
-  <img src="https://img.shields.io/badge/flask-1b1b21?style=flat-square&logo=flask&logoColor=c9c9d2&labelColor=0d0d10" alt="flask">
-  <img src="https://img.shields.io/badge/express-1b1b21?style=flat-square&logo=express&logoColor=c9c9d2&labelColor=0d0d10" alt="express">
-  <img src="https://img.shields.io/badge/render-1b1b21?style=flat-square&logo=render&logoColor=c9c9d2&labelColor=0d0d10" alt="render">
+  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/repos-6%20public-0e0e12?style=flat-square&labelColor=000000" alt="repos"></a>
+  <img src="https://img.shields.io/badge/python-0e0e12?style=flat-square&logo=python&logoColor=c9c9d2&labelColor=000000" alt="python">
+  <img src="https://img.shields.io/badge/javascript-0e0e12?style=flat-square&logo=javascript&logoColor=c9c9d2&labelColor=000000" alt="javascript">
+  <img src="https://img.shields.io/badge/flask-0e0e12?style=flat-square&logo=flask&logoColor=c9c9d2&labelColor=000000" alt="flask">
+  <img src="https://img.shields.io/badge/express-0e0e12?style=flat-square&logo=express&logoColor=c9c9d2&labelColor=000000" alt="express">
+  <img src="https://img.shields.io/badge/render-0e0e12?style=flat-square&logo=render&logoColor=c9c9d2&labelColor=000000" alt="render">
 </p>
 
 ---
 
-### about
+> student. still learning.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learning by breaking things,
+> &nbsp;&nbsp;&nbsp;&nbsp;mostly.
 
-I'm a student learning to build software by shipping it. Most of what's here started as a
-weekend idea, a practice task, or a hackathon prototype — small apps, AI-assisted tools,
-and the occasional experiment that didn't survive contact with reality.
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;who
 
-My rule of thumb: **get it deployed first, make it clever second.** A public URL on day one
-beats a perfect codebase that nobody can open.
+i build small things. weekend ideas. practice tasks.
+&nbsp;&nbsp;&nbsp;&nbsp;hackathon prototypes that were alive for 48 hours
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and then weren't.
 
-### what I'm doing now
+some of them work. some of them are here anyway —
+&nbsp;&nbsp;&nbsp;&nbsp;deleting a repo doesn't undo the part where i learned something.
 
-- Prototyping small web apps with **Flask** and **Express**, deploying them to **Render**
-- Building AI-assisted tools and learning where an LLM helps — and where plain rules are better
-- Training for hackathons: repeatable project template, deploy in under an hour, demo that never breaks
+one rule, and i keep it:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**deploy first. be clever later.**
+&nbsp;&nbsp;&nbsp;&nbsp;a live url on day one beats perfect code nobody can open.
 
-### selected projects
+### &nbsp;&nbsp;&nbsp;&nbsp;now
 
-| Project | What it is | Stack |
+&nbsp;&nbsp;`flask` &nbsp;·&nbsp; `express` &nbsp;— small apps, shipped to render, kept awake by luck
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ai tooling` — learning where a model helps
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and where plain boring rules are simply better
+
+&nbsp;&nbsp;&nbsp;&nbsp;`hackathons` — a template i can clone at 3am, deploy in under an hour,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and demo without praying
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;things
+
+| | what it is | built with |
 | --- | --- | --- |
-| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted web app experiment | JavaScript |
-| [BizHakAI](https://github.com/logreus-cloud/BizHakAI) | Hackathon project around business + AI | Python |
-| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app, Flask backend | Flask · JS |
-| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Tiny drill app for memorizing code by typing it | Python |
-| [KaspiPracticeKhakaton](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | Hackathon practice run | — |
+| [**EnergyMind-AI**](https://github.com/logreus-cloud/EnergyMind-AI) | an ai-assisted web thing | javascript |
+| [**BizHakAI**](https://github.com/logreus-cloud/BizHakAI) | hackathon run. business + ai | python |
+| [**HealthTrackerFlask**](https://github.com/logreus-cloud/HealthTrackerFlask) | health tracker. flask under it | flask · js |
+| [**zauchivanie-koda**](https://github.com/logreus-cloud/zauchivanie-koda) | tiny drill app — memorize code by typing it | python |
+| [**KaspiPracticeKhakaton**](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | practice round | — |
 
-### what I'm learning next
+### &nbsp;&nbsp;next
 
-`testing` · `databases beyond SQLite` · `CI that actually runs` · `reading other people's code`
+&nbsp;&nbsp;&nbsp;&nbsp;`tests` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — the ones i keep postponing
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`databases` &nbsp; — beyond sqlite
+&nbsp;&nbsp;`ci` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — that actually runs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`other people's code` — the hardest one
 
 <p align="center">
-  <sub>always mid-project — say hi if something here is useful to you</sub>
+  <sub>always mid-project &nbsp;·&nbsp; say hi if anything here is useful to you</sub>
 </p>
