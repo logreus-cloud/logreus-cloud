@@ -4,11 +4,8 @@
 
 <p align="center">
   <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/repos-6%20public-0b0e12?style=flat-square&labelColor=000000" alt="repos"></a>
-  <img src="https://img.shields.io/badge/python-0b0e12?style=flat-square&logo=python&logoColor=aab3bd&labelColor=000000" alt="python">
-  <img src="https://img.shields.io/badge/javascript-0b0e12?style=flat-square&logo=javascript&logoColor=aab3bd&labelColor=000000" alt="javascript">
-  <img src="https://img.shields.io/badge/flask-0b0e12?style=flat-square&logo=flask&logoColor=aab3bd&labelColor=000000" alt="flask">
-  <img src="https://img.shields.io/badge/express-0b0e12?style=flat-square&logo=express&logoColor=aab3bd&labelColor=000000" alt="express">
-  <img src="https://img.shields.io/badge/render-0b0e12?style=flat-square&logo=render&logoColor=aab3bd&labelColor=000000" alt="render">
+  <img src="https://img.shields.io/badge/student-learning%20in%20public-0b0e12?style=flat-square&labelColor=000000" alt="student">
+  <img src="https://img.shields.io/badge/deployed%20on-Render-0b0e12?style=flat-square&logo=render&logoColor=aab3bd&labelColor=000000" alt="render">
 </p>
 
 ---
@@ -27,6 +24,32 @@ perfect codebase nobody can open.
 - Building small web apps with **Flask** and **Express**, deployed on **Render**
 - Learning where an LLM genuinely helps — and where plain deterministic rules do the job better
 - Preparing for hackathons: a reusable project template, deploy in under an hour, a demo that holds up
+
+### Tech Stack
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="py,js,html,css">
+
+**Backend & data**
+
+<img src="https://skillicons.dev/icons?i=flask,express,nodejs,sqlite&theme=dark" alt="flask,express,nodejs,sqlite">
+
+**Tooling**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,npm&theme=dark" alt="git,github,vscode,powershell,npm">
+
+<p>
+  <img src="https://img.shields.io/badge/PYTHON-0b0e12?style=for-the-badge&logo=python&logoColor=7f9bb0&labelColor=000000" alt="python">
+  <img src="https://img.shields.io/badge/JAVASCRIPT-0b0e12?style=for-the-badge&logo=javascript&logoColor=7f9bb0&labelColor=000000" alt="javascript">
+  <img src="https://img.shields.io/badge/FLASK-0b0e12?style=for-the-badge&logo=flask&logoColor=7f9bb0&labelColor=000000" alt="flask">
+  <img src="https://img.shields.io/badge/EXPRESS-0b0e12?style=for-the-badge&logo=express&logoColor=7f9bb0&labelColor=000000" alt="express">
+  <img src="https://img.shields.io/badge/NODE.JS-0b0e12?style=for-the-badge&logo=nodedotjs&logoColor=7f9bb0&labelColor=000000" alt="node.js">
+  <img src="https://img.shields.io/badge/SQLITE-0b0e12?style=for-the-badge&logo=sqlite&logoColor=7f9bb0&labelColor=000000" alt="sqlite">
+  <img src="https://img.shields.io/badge/RENDER-0b0e12?style=for-the-badge&logo=render&logoColor=7f9bb0&labelColor=000000" alt="render">
+  <img src="https://img.shields.io/badge/GIT-0b0e12?style=for-the-badge&logo=git&logoColor=7f9bb0&labelColor=000000" alt="git">
+</p>
+
 
 ### Projects
 
@@ -59,6 +82,32 @@ perfect codebase nobody can open.
 - Собираю небольшие веб-приложения на **Flask** и **Express**, деплою на **Render**
 - Разбираюсь, где языковая модель действительно помогает, а где обычные детерминированные правила работают лучше
 - Готовлюсь к хакатонам: переиспользуемый шаблон проекта, деплой меньше чем за час, демо, которое не разваливается
+
+### Стек
+
+**Языки**
+
+<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="py,js,html,css">
+
+**Бэкенд и данные**
+
+<img src="https://skillicons.dev/icons?i=flask,express,nodejs,sqlite&theme=dark" alt="flask,express,nodejs,sqlite">
+
+**Инструменты**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,npm&theme=dark" alt="git,github,vscode,powershell,npm">
+
+<p>
+  <img src="https://img.shields.io/badge/PYTHON-0b0e12?style=for-the-badge&logo=python&logoColor=7f9bb0&labelColor=000000" alt="python">
+  <img src="https://img.shields.io/badge/JAVASCRIPT-0b0e12?style=for-the-badge&logo=javascript&logoColor=7f9bb0&labelColor=000000" alt="javascript">
+  <img src="https://img.shields.io/badge/FLASK-0b0e12?style=for-the-badge&logo=flask&logoColor=7f9bb0&labelColor=000000" alt="flask">
+  <img src="https://img.shields.io/badge/EXPRESS-0b0e12?style=for-the-badge&logo=express&logoColor=7f9bb0&labelColor=000000" alt="express">
+  <img src="https://img.shields.io/badge/NODE.JS-0b0e12?style=for-the-badge&logo=nodedotjs&logoColor=7f9bb0&labelColor=000000" alt="node.js">
+  <img src="https://img.shields.io/badge/SQLITE-0b0e12?style=for-the-badge&logo=sqlite&logoColor=7f9bb0&labelColor=000000" alt="sqlite">
+  <img src="https://img.shields.io/badge/RENDER-0b0e12?style=for-the-badge&logo=render&logoColor=7f9bb0&labelColor=000000" alt="render">
+  <img src="https://img.shields.io/badge/GIT-0b0e12?style=for-the-badge&logo=git&logoColor=7f9bb0&labelColor=000000" alt="git">
+</p>
+
 
 ### Проекты
 
