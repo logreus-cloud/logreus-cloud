@@ -1,62 +1,81 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="ligreus — student developer, learning in public" width="100%">
+  <img src="./assets/banner.svg" alt="Ligreus — student developer, learning in public" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/repos-6%20public-0e0e12?style=flat-square&labelColor=000000" alt="repos"></a>
-  <img src="https://img.shields.io/badge/python-0e0e12?style=flat-square&logo=python&logoColor=c9c9d2&labelColor=000000" alt="python">
-  <img src="https://img.shields.io/badge/javascript-0e0e12?style=flat-square&logo=javascript&logoColor=c9c9d2&labelColor=000000" alt="javascript">
-  <img src="https://img.shields.io/badge/flask-0e0e12?style=flat-square&logo=flask&logoColor=c9c9d2&labelColor=000000" alt="flask">
-  <img src="https://img.shields.io/badge/express-0e0e12?style=flat-square&logo=express&logoColor=c9c9d2&labelColor=000000" alt="express">
-  <img src="https://img.shields.io/badge/render-0e0e12?style=flat-square&logo=render&logoColor=c9c9d2&labelColor=000000" alt="render">
+  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/repos-6%20public-0b0e12?style=flat-square&labelColor=000000" alt="repos"></a>
+  <img src="https://img.shields.io/badge/python-0b0e12?style=flat-square&logo=python&logoColor=aab3bd&labelColor=000000" alt="python">
+  <img src="https://img.shields.io/badge/javascript-0b0e12?style=flat-square&logo=javascript&logoColor=aab3bd&labelColor=000000" alt="javascript">
+  <img src="https://img.shields.io/badge/flask-0b0e12?style=flat-square&logo=flask&logoColor=aab3bd&labelColor=000000" alt="flask">
+  <img src="https://img.shields.io/badge/express-0b0e12?style=flat-square&logo=express&logoColor=aab3bd&labelColor=000000" alt="express">
+  <img src="https://img.shields.io/badge/render-0b0e12?style=flat-square&logo=render&logoColor=aab3bd&labelColor=000000" alt="render">
 </p>
 
 ---
 
-> student. still learning.<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learning by breaking things,<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;mostly.
+### About
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;who
+I'm a student learning to build software by shipping it. Most of what you see here started as a
+weekend idea, a practice task, or a hackathon prototype — small web apps, AI-assisted tools, and
+experiments that taught me something even when they didn't survive.
 
-i build small things. weekend ideas. practice tasks.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;hackathon prototypes that were alive for 48 hours<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and then weren't.
+My rule of thumb: **deploy first, get clever later.** A working public URL on day one beats a
+perfect codebase nobody can open.
 
-some of them work. some of them are here anyway —<br>
-&nbsp;&nbsp;&nbsp;&nbsp;deleting a repo doesn't undo the part where i learned something.
+### What I'm working on
 
-one rule, and i keep it:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**deploy first. be clever later.**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;a live url on day one beats perfect code nobody can open.
+- Building small web apps with **Flask** and **Express**, deployed on **Render**
+- Learning where an LLM genuinely helps — and where plain deterministic rules do the job better
+- Preparing for hackathons: a reusable project template, deploy in under an hour, a demo that holds up
 
-### &nbsp;&nbsp;&nbsp;&nbsp;now
+### Projects
 
-&nbsp;&nbsp;`flask` &nbsp;·&nbsp; `express` &nbsp;— small apps, shipped to render, kept awake by luck
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ai tooling` — learning where a model helps<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and where plain boring rules are simply better
-
-&nbsp;&nbsp;&nbsp;&nbsp;`hackathons` — a template i can clone at 3am, deploy in under an hour,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and demo without praying
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;things
-
-| | what it is | built with |
+| Project | What it is | Built with |
 | --- | --- | --- |
-| [**EnergyMind-AI**](https://github.com/logreus-cloud/EnergyMind-AI) | an ai-assisted web thing | javascript |
-| [**BizHakAI**](https://github.com/logreus-cloud/BizHakAI) | hackathon run. business + ai | python |
-| [**HealthTrackerFlask**](https://github.com/logreus-cloud/HealthTrackerFlask) | health tracker. flask under it | flask · js |
-| [**zauchivanie-koda**](https://github.com/logreus-cloud/zauchivanie-koda) | tiny drill app — memorize code by typing it | python |
-| [**KaspiPracticeKhakaton**](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | practice round | — |
+| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted web application | JavaScript |
+| [BizHakAI](https://github.com/logreus-cloud/BizHakAI) | Hackathon project — business tooling with AI | Python |
+| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app with a Flask backend | Flask · JS |
+| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Small drill app for memorizing code by typing it | Python |
+| [KaspiPracticeKhakaton](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | Hackathon practice run | — |
 
-### &nbsp;&nbsp;next
+### Learning next
 
-&nbsp;&nbsp;&nbsp;&nbsp;`tests` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — the ones i keep postponing<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`databases` &nbsp; — beyond sqlite<br>
-&nbsp;&nbsp;`ci` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — that actually runs<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`other people's code` — the hardest one
+`testing` · `databases beyond SQLite` · `CI that actually runs` · `reading other people's code`
+
+<details>
+<summary><b>По-русски</b></summary>
+
+### О себе
+
+Студент. Учусь разрабатывать, разрабатывая: почти всё здесь начиналось как идея на выходные,
+учебная задача или прототип с хакатона — небольшие веб-приложения, инструменты с ИИ и
+эксперименты, которые чему-то научили, даже если не выжили.
+
+Принцип простой: **сначала деплой, потом красота.** Рабочая публичная ссылка в первый день
+полезнее идеального кода, который никто не может открыть.
+
+### Чем занят сейчас
+
+- Собираю небольшие веб-приложения на **Flask** и **Express**, деплою на **Render**
+- Разбираюсь, где языковая модель действительно помогает, а где обычные детерминированные правила работают лучше
+- Готовлюсь к хакатонам: переиспользуемый шаблон проекта, деплой меньше чем за час, демо, которое не разваливается
+
+### Проекты
+
+| Проект | Что это | Стек |
+| --- | --- | --- |
+| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Веб-приложение с ИИ | JavaScript |
+| [BizHakAI](https://github.com/logreus-cloud/BizHakAI) | Хакатонный проект: бизнес-задачи и ИИ | Python |
+| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья, бэкенд на Flask | Flask · JS |
+| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Тренажёр для заучивания кода набором вручную | Python |
+| [KaspiPracticeKhakaton](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | Тренировочный хакатон | — |
+
+### Что учу дальше
+
+`тесты` · `базы данных сложнее SQLite` · `CI, который реально запускается` · `чтение чужого кода`
+
+</details>
 
 <p align="center">
-  <sub>always mid-project &nbsp;·&nbsp; say hi if anything here is useful to you</sub>
+  <sub>Always mid-project — say hi if anything here is useful to you</sub>
 </p>
