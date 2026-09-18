@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/repos-6%20public-0b0e12?style=flat-square&labelColor=000000" alt="repos"></a>
   <img src="https://img.shields.io/badge/student-learning%20in%20public-0b0e12?style=flat-square&labelColor=000000" alt="student">
-  <img src="https://img.shields.io/badge/deployed%20on-Render-0b0e12?style=flat-square&logo=render&logoColor=aab3bd&labelColor=000000" alt="render">
+  <img src="https://img.shields.io/badge/focus-web%20apps%20%C2%B7%20ai%20tooling-0b0e12?style=flat-square&labelColor=000000" alt="focus">
+  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/all%20repos-%E2%86%92-0b0e12?style=flat-square&labelColor=000000" alt="all repos"></a>
 </p>
 
 ---
@@ -39,7 +39,7 @@ perfect codebase nobody can open.
 
 **Tooling**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,npm&theme=dark" alt="git,github,vscode,powershell,npm">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,docker&theme=dark" alt="git,github,vscode,powershell,docker">
 
 <p>
   <img src="https://img.shields.io/badge/PYTHON-0b0e12?style=for-the-badge&logo=python&logoColor=7f9bb0&labelColor=000000" alt="python">
@@ -49,19 +49,20 @@ perfect codebase nobody can open.
   <img src="https://img.shields.io/badge/NODE.JS-0b0e12?style=for-the-badge&logo=nodedotjs&logoColor=7f9bb0&labelColor=000000" alt="node.js">
   <img src="https://img.shields.io/badge/SQLITE-0b0e12?style=for-the-badge&logo=sqlite&logoColor=7f9bb0&labelColor=000000" alt="sqlite">
   <img src="https://img.shields.io/badge/RENDER-0b0e12?style=for-the-badge&logo=render&logoColor=7f9bb0&labelColor=000000" alt="render">
+  <img src="https://img.shields.io/badge/DOCKER-0b0e12?style=for-the-badge&logo=docker&logoColor=7f9bb0&labelColor=000000" alt="docker">
   <img src="https://img.shields.io/badge/GIT-0b0e12?style=for-the-badge&logo=git&logoColor=7f9bb0&labelColor=000000" alt="git">
 </p>
 
 
 ### Projects
 
-| Project | What it is | Built with |
-| --- | --- | --- |
-| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted web application | JavaScript |
-| [BizHakAI](https://github.com/logreus-cloud/BizHakAI) | Hackathon project — business tooling with AI | Python |
-| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app with a Flask backend | Flask · JS |
-| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Small drill app for memorizing code by typing it | Python |
-| [KaspiPracticeKhakaton](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | Hackathon practice run | — |
+Only what actually runs — the rest is private or too rough to show.
+
+| Project | What it is | Stack | State |
+| --- | --- | --- | --- |
+| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Drill app for memorizing code — flashcards with spaced repetition, quizzes, and retyping practice. Ships with 100 snippets | Python · Flask | runs locally |
+| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app: entries, charts, a Flask backend behind a plain JS frontend | Flask · JS | runs locally |
+| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted energy app — split frontend/backend with a shared API contract and Docker Compose | JavaScript · Docker | in progress |
 
 ### Learning next
 
@@ -97,7 +98,7 @@ perfect codebase nobody can open.
 
 **Инструменты**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,npm&theme=dark" alt="git,github,vscode,powershell,npm">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,docker&theme=dark" alt="git,github,vscode,powershell,docker">
 
 <p>
   <img src="https://img.shields.io/badge/PYTHON-0b0e12?style=for-the-badge&logo=python&logoColor=7f9bb0&labelColor=000000" alt="python">
@@ -107,19 +108,20 @@ perfect codebase nobody can open.
   <img src="https://img.shields.io/badge/NODE.JS-0b0e12?style=for-the-badge&logo=nodedotjs&logoColor=7f9bb0&labelColor=000000" alt="node.js">
   <img src="https://img.shields.io/badge/SQLITE-0b0e12?style=for-the-badge&logo=sqlite&logoColor=7f9bb0&labelColor=000000" alt="sqlite">
   <img src="https://img.shields.io/badge/RENDER-0b0e12?style=for-the-badge&logo=render&logoColor=7f9bb0&labelColor=000000" alt="render">
+  <img src="https://img.shields.io/badge/DOCKER-0b0e12?style=for-the-badge&logo=docker&logoColor=7f9bb0&labelColor=000000" alt="docker">
   <img src="https://img.shields.io/badge/GIT-0b0e12?style=for-the-badge&logo=git&logoColor=7f9bb0&labelColor=000000" alt="git">
 </p>
 
 
 ### Проекты
 
-| Проект | Что это | Стек |
-| --- | --- | --- |
-| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Веб-приложение с ИИ | JavaScript |
-| [BizHakAI](https://github.com/logreus-cloud/BizHakAI) | Хакатонный проект: бизнес-задачи и ИИ | Python |
-| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья, бэкенд на Flask | Flask · JS |
-| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Тренажёр для заучивания кода набором вручную | Python |
-| [KaspiPracticeKhakaton](https://github.com/logreus-cloud/KaspiPracticeKhakaton) | Тренировочный хакатон | — |
+Здесь только то, что действительно работает — остальное приватно или слишком сырое.
+
+| Проект | Что это | Стек | Состояние |
+| --- | --- | --- | --- |
+| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Тренажёр для заучивания кода: карточки с интервальными повторениями, тесты и практика переписывания. Внутри 100 готовых сниппетов | Python · Flask | работает локально |
+| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья: записи, графики, бэкенд на Flask и фронтенд на чистом JS | Flask · JS | работает локально |
+| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Приложение с ИИ вокруг энергетики: раздельные фронт и бэк, общий контракт API, Docker Compose | JavaScript · Docker | в работе |
 
 ### Что учу дальше
 
