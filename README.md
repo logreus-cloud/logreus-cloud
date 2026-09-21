@@ -60,7 +60,7 @@ Only what actually runs — the rest is private or too rough to show.
 
 | Project | What it is | Stack | State |
 | --- | --- | --- | --- |
-| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Drill app for memorizing code — flashcards with spaced repetition, quizzes, and retyping practice. Ships with 100 snippets | Python · Flask | runs locally |
+| [analog-prep](https://github.com/logreus-cloud/analog-prep) | Drug analogue lookup: finds interchangeable medicines by the name on the box, compares the price of a full course, and refuses the swap when the rules say it is unsafe | Node · Express | hackathon build · demo mode |
 | [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app: entries, charts, a Flask backend behind a plain JS frontend | Flask · JS | runs locally |
 | [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted energy app — split frontend/backend with a shared API contract and Docker Compose | JavaScript · Docker | in progress |
 
@@ -119,7 +119,7 @@ Only what actually runs — the rest is private or too rough to show.
 
 | Проект | Что это | Стек | Состояние |
 | --- | --- | --- | --- |
-| [zauchivanie-koda](https://github.com/logreus-cloud/zauchivanie-koda) | Тренажёр для заучивания кода: карточки с интервальными повторениями, тесты и практика переписывания. Внутри 100 готовых сниппетов | Python · Flask | работает локально |
+| [analog-prep](https://github.com/logreus-cloud/analog-prep) | Поиск аналогов лекарств: по названию с упаковки находит взаимозаменяемые препараты, считает цену за курс и запрещает замену там, где правила считают её опасной | Node · Express | хакатон · демо-режим |
 | [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья: записи, графики, бэкенд на Flask и фронтенд на чистом JS | Flask · JS | работает локально |
 | [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Приложение с ИИ вокруг энергетики: раздельные фронт и бэк, общий контракт API, Docker Compose | JavaScript · Docker | в работе |
 
