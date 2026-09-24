@@ -40,7 +40,7 @@ perfect codebase nobody can open.
 
 **Data & deploy**
 
-<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> &nbsp;+ Render
+<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> <img src="./assets/render.svg" height="48" alt="Render">
 
 **Tooling**
 
@@ -95,7 +95,7 @@ Only what actually runs — the rest is private or too rough to show.
 
 **Данные и деплой**
 
-<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> &nbsp;+ Render
+<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> <img src="./assets/render.svg" height="48" alt="Render">
 
 **Инструменты**
 
