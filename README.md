@@ -12,7 +12,7 @@
 
 ### About
 
-<img align="right" width="200" src="./assets/loop.gif" alt="">
+<img align="right" width="200" src="./assets/loop.gif" alt="Looping black-and-white anime-style portrait">
 
 I'm a student learning to build software by shipping it. Most of what you see here started as a
 weekend idea, a practice task, or a hackathon prototype — small web apps, AI-assisted tools, and
@@ -23,36 +23,28 @@ perfect codebase nobody can open.
 
 ### What I'm working on
 
-- Building small web apps with **Flask** and **Express**, deployed on **Render**
+- Building small web apps with **Flask** and **Express**, deployed on **Render** and **Cloudflare Pages**
 - Learning where an LLM genuinely helps — and where plain deterministic rules do the job better
+- Writing the core parts myself instead of configuring them: a BM25 search engine, a Markdown → DOCX pipeline
 - Preparing for hackathons: a reusable project template, deploy in under an hour, a demo that holds up
 
 ### Tech Stack
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="py,js,html,css">
+<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="Python, JavaScript, HTML, CSS">
 
-**Backend & data**
+**Web**
 
-<img src="https://skillicons.dev/icons?i=flask,express,nodejs,sqlite&theme=dark" alt="flask,express,nodejs,sqlite">
+<img src="https://skillicons.dev/icons?i=flask,fastapi,express,nodejs,nextjs,astro&theme=dark" alt="Flask, FastAPI, Express, Node.js, Next.js, Astro">
+
+**Data & deploy**
+
+<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> &nbsp;+ Render
 
 **Tooling**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,docker&theme=dark" alt="git,github,vscode,powershell,docker">
-
-<p>
-  <img src="https://img.shields.io/badge/PYTHON-0b0e12?style=for-the-badge&logo=python&logoColor=7f9bb0&labelColor=000000" alt="python">
-  <img src="https://img.shields.io/badge/JAVASCRIPT-0b0e12?style=for-the-badge&logo=javascript&logoColor=7f9bb0&labelColor=000000" alt="javascript">
-  <img src="https://img.shields.io/badge/FLASK-0b0e12?style=for-the-badge&logo=flask&logoColor=7f9bb0&labelColor=000000" alt="flask">
-  <img src="https://img.shields.io/badge/EXPRESS-0b0e12?style=for-the-badge&logo=express&logoColor=7f9bb0&labelColor=000000" alt="express">
-  <img src="https://img.shields.io/badge/NODE.JS-0b0e12?style=for-the-badge&logo=nodedotjs&logoColor=7f9bb0&labelColor=000000" alt="node.js">
-  <img src="https://img.shields.io/badge/SQLITE-0b0e12?style=for-the-badge&logo=sqlite&logoColor=7f9bb0&labelColor=000000" alt="sqlite">
-  <img src="https://img.shields.io/badge/RENDER-0b0e12?style=for-the-badge&logo=render&logoColor=7f9bb0&labelColor=000000" alt="render">
-  <img src="https://img.shields.io/badge/DOCKER-0b0e12?style=for-the-badge&logo=docker&logoColor=7f9bb0&labelColor=000000" alt="docker">
-  <img src="https://img.shields.io/badge/GIT-0b0e12?style=for-the-badge&logo=git&logoColor=7f9bb0&labelColor=000000" alt="git">
-</p>
-
+<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell&theme=dark" alt="Git, GitHub, VS Code, PowerShell">
 
 ### Projects
 
@@ -60,7 +52,11 @@ Only what actually runs — the rest is private or too rough to show.
 
 | Project | What it is | Stack | State |
 | --- | --- | --- | --- |
+| [notabene](https://github.com/logreus-cloud/notabene) | Full-text search over your own notes from the terminal or a browser tab. BM25 ranking written by hand, Russian and English stemming, phrase search — one SQLite file, zero runtime dependencies | Python · SQLite | CI · works |
+| [labgen](https://github.com/logreus-cloud/labgen) | Write a lab report in Markdown, get a DOCX formatted to GOST 7.32-2017: numbered figures and tables, table of contents, no Word needed | Python | CI · works |
+| [triage-mvp](https://github.com/logreus-cloud/triage-mvp) | Patient pre-visit survey: seven questions become a structured card for the doctor with an urgency category and red-flag rules | Next.js · Express · FastAPI | [live](https://triage-web-eaj2.onrender.com/) |
 | [analog-prep](https://github.com/logreus-cloud/analog-prep) | Drug analogue lookup: finds interchangeable medicines by the name on the box, compares the price of a full course, and refuses the swap when the rules say it is unsafe | Node · Express | hackathon build · demo mode |
+| [genshinflex](https://github.com/logreus-cloud/genshinflex) | Open Genshin Impact guide: builds, teams, character database, pull tracker and an Abyss team checker for the current rotation | Astro · Cloudflare Pages | in progress |
 | [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app: entries, charts, a Flask backend behind a plain JS frontend | Flask · JS | runs locally |
 | [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted energy app — split frontend/backend with a shared API contract and Docker Compose | JavaScript · Docker | in progress |
 
@@ -82,36 +78,28 @@ Only what actually runs — the rest is private or too rough to show.
 
 ### Чем занят сейчас
 
-- Собираю небольшие веб-приложения на **Flask** и **Express**, деплою на **Render**
+- Собираю небольшие веб-приложения на **Flask** и **Express**, деплою на **Render** и **Cloudflare Pages**
 - Разбираюсь, где языковая модель действительно помогает, а где обычные детерминированные правила работают лучше
+- Пишу ключевые части сам, а не настраиваю готовые: поисковый движок на BM25, конвейер Markdown → DOCX
 - Готовлюсь к хакатонам: переиспользуемый шаблон проекта, деплой меньше чем за час, демо, которое не разваливается
 
 ### Стек
 
 **Языки**
 
-<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="py,js,html,css">
+<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="Python, JavaScript, HTML, CSS">
 
-**Бэкенд и данные**
+**Веб**
 
-<img src="https://skillicons.dev/icons?i=flask,express,nodejs,sqlite&theme=dark" alt="flask,express,nodejs,sqlite">
+<img src="https://skillicons.dev/icons?i=flask,fastapi,express,nodejs,nextjs,astro&theme=dark" alt="Flask, FastAPI, Express, Node.js, Next.js, Astro">
+
+**Данные и деплой**
+
+<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> &nbsp;+ Render
 
 **Инструменты**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,docker&theme=dark" alt="git,github,vscode,powershell,docker">
-
-<p>
-  <img src="https://img.shields.io/badge/PYTHON-0b0e12?style=for-the-badge&logo=python&logoColor=7f9bb0&labelColor=000000" alt="python">
-  <img src="https://img.shields.io/badge/JAVASCRIPT-0b0e12?style=for-the-badge&logo=javascript&logoColor=7f9bb0&labelColor=000000" alt="javascript">
-  <img src="https://img.shields.io/badge/FLASK-0b0e12?style=for-the-badge&logo=flask&logoColor=7f9bb0&labelColor=000000" alt="flask">
-  <img src="https://img.shields.io/badge/EXPRESS-0b0e12?style=for-the-badge&logo=express&logoColor=7f9bb0&labelColor=000000" alt="express">
-  <img src="https://img.shields.io/badge/NODE.JS-0b0e12?style=for-the-badge&logo=nodedotjs&logoColor=7f9bb0&labelColor=000000" alt="node.js">
-  <img src="https://img.shields.io/badge/SQLITE-0b0e12?style=for-the-badge&logo=sqlite&logoColor=7f9bb0&labelColor=000000" alt="sqlite">
-  <img src="https://img.shields.io/badge/RENDER-0b0e12?style=for-the-badge&logo=render&logoColor=7f9bb0&labelColor=000000" alt="render">
-  <img src="https://img.shields.io/badge/DOCKER-0b0e12?style=for-the-badge&logo=docker&logoColor=7f9bb0&labelColor=000000" alt="docker">
-  <img src="https://img.shields.io/badge/GIT-0b0e12?style=for-the-badge&logo=git&logoColor=7f9bb0&labelColor=000000" alt="git">
-</p>
-
+<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell&theme=dark" alt="Git, GitHub, VS Code, PowerShell">
 
 ### Проекты
 
@@ -119,7 +107,11 @@ Only what actually runs — the rest is private or too rough to show.
 
 | Проект | Что это | Стек | Состояние |
 | --- | --- | --- | --- |
+| [notabene](https://github.com/logreus-cloud/notabene) | Полнотекстовый поиск по своим заметкам из терминала или вкладки браузера. Ранжирование BM25 написано вручную, стемминг для русского и английского, поиск по фразе — один файл SQLite и ноль зависимостей | Python · SQLite | CI · работает |
+| [labgen](https://github.com/logreus-cloud/labgen) | Пишешь отчёт по лабе в Markdown — получаешь DOCX по ГОСТ 7.32-2017: нумерация рисунков и таблиц, содержание, Word не нужен | Python | CI · работает |
+| [triage-mvp](https://github.com/logreus-cloud/triage-mvp) | Предварительный опрос пациента: семь вопросов превращаются в карточку для врача с категорией срочности и правилами тревожных признаков | Next.js · Express · FastAPI | [живая ссылка](https://triage-web-eaj2.onrender.com/) |
 | [analog-prep](https://github.com/logreus-cloud/analog-prep) | Поиск аналогов лекарств: по названию с упаковки находит взаимозаменяемые препараты, считает цену за курс и запрещает замену там, где правила считают её опасной | Node · Express | хакатон · демо-режим |
+| [genshinflex](https://github.com/logreus-cloud/genshinflex) | Открытый справочник по Genshin Impact: билды, команды, база персонажей, трекер круток и проверка команды для Бездны под текущую ротацию | Astro · Cloudflare Pages | в работе |
 | [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья: записи, графики, бэкенд на Flask и фронтенд на чистом JS | Flask · JS | работает локально |
 | [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Приложение с ИИ вокруг энергетики: раздельные фронт и бэк, общий контракт API, Docker Compose | JavaScript · Docker | в работе |
 
