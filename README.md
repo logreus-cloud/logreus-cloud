@@ -37,33 +37,34 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 ### Tech Stack
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=py,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS">
-
-**Web**
-
-<img src="https://skillicons.dev/icons?i=flask,fastapi,express,nodejs,nextjs,astro&theme=dark" alt="Flask, FastAPI, Express, Node.js, Next.js, Astro">
-
-**Data & deploy**
-
-<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> <img src="./assets/render.svg" height="48" alt="Render">
-
-**Tooling**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell&theme=dark" alt="Git, GitHub, VS Code, PowerShell">
+<picture>
+  <source srcset="./assets/stack.svg" media="(prefers-color-scheme: dark)">
+  <source srcset="./assets/stack-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <img src="./assets/stack.svg" alt="Stack. Languages: Python, JavaScript, TypeScript, HTML, CSS. Web: Flask, FastAPI, Express, Node.js, Next.js, Astro. Data and deploy: SQLite, Docker, Cloudflare, Render. Tools: Git, GitHub, VS Code, PowerShell." width="100%">
+</picture>
 
 ### Projects
 
-| Project | What it is | Stack | State |
-| --- | --- | --- | --- |
-| [notabene](https://github.com/logreus-cloud/notabene) | Full-text search over your own notes from the terminal or a browser tab. BM25 ranking written by hand, Russian and English stemming, phrase search — one SQLite file, zero runtime dependencies | Python · SQLite | CI · works |
-| [labgen](https://github.com/logreus-cloud/labgen) | Write a lab report in Markdown, get a DOCX formatted to GOST 7.32-2017: numbered figures and tables, table of contents, no Word needed | Python | CI · works |
-| [triage-mvp](https://github.com/logreus-cloud/triage-mvp) | Patient pre-visit survey: seven questions become a structured card for the doctor with an urgency category and red-flag rules | Next.js · Express · FastAPI | [live](https://triage-web-eaj2.onrender.com/) |
-| [analog-prep](https://github.com/logreus-cloud/analog-prep) | Drug analogue lookup: finds interchangeable medicines by the name on the box, compares the price of a full course, and refuses the swap when the rules say it is unsafe | Node · Express | hackathon build · demo mode |
-| [genshinflex](https://github.com/logreus-cloud/genshinflex) | Open Genshin Impact guide: builds, teams, character database, pull tracker and an Abyss team checker for the current rotation | Astro · Cloudflare Pages | in progress |
-| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Health tracking app: entries, charts, a Flask backend behind a plain JS frontend | Flask · JS | runs locally |
-| [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | AI-assisted energy app — split frontend/backend with a shared API contract and Docker Compose | JavaScript · Docker | in progress |
+<p>
+  <a href="https://github.com/logreus-cloud/genshinflex"><picture><source srcset="./assets/cards/genshinflex.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/genshinflex-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/genshinflex.svg" alt="genshinflex: open Genshin Impact guide with builds, teams, a pull tracker and a community forum. Astro, in progress." width="49%"></picture></a>
+  <a href="https://github.com/logreus-cloud/notabene"><picture><source srcset="./assets/cards/notabene.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/notabene-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/notabene.svg" alt="notabene: full-text search over your own notes, hand-written BM25, Russian and English stemming. Python, CI, works." width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/logreus-cloud/labgen"><picture><source srcset="./assets/cards/labgen.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/labgen-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/labgen.svg" alt="labgen: Markdown lab report in, DOCX out to GOST 7.32-2017. Python, CI, works." width="49%"></picture></a>
+  <a href="https://github.com/logreus-cloud/triage-mvp"><picture><source srcset="./assets/cards/triage-mvp.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/triage-mvp-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/triage-mvp.svg" alt="triage-mvp: pre-visit survey that becomes a doctor's card with urgency and red-flag rules. Live demo." width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/logreus-cloud/analog-prep"><picture><source srcset="./assets/cards/analog-prep.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/analog-prep-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/analog-prep.svg" alt="analog-prep: finds interchangeable drugs by the name on the box and refuses unsafe swaps. Demo mode." width="49%"></picture></a>
+  <a href="https://github.com/logreus-cloud/HealthTrackerFlask"><picture><source srcset="./assets/cards/healthtrackerflask.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/healthtrackerflask-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/healthtrackerflask.svg" alt="HealthTrackerFlask: health tracking with charts, Flask backend and React frontend. Runs locally." width="49%"></picture></a>
+</p>
+
+<sub>Live demo: [triage-mvp](https://triage-web-eaj2.onrender.com/) (free Render plan, first load takes up to a minute) · also on GitHub: [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI), [portfolio](https://github.com/logreus-cloud/portfolio)</sub>
+
+<picture>
+  <source srcset="./assets/activity.svg" media="(prefers-color-scheme: dark)">
+  <source srcset="./assets/activity-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <img src="./assets/activity.svg" alt="Live activity card: last shipped repository, contributions in the last 12 months and public repos, refreshed daily by GitHub Actions." width="100%">
+</picture>
 
 ### Learning next
 
@@ -97,21 +98,11 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 ### Стек
 
-**Языки**
-
-<img src="https://skillicons.dev/icons?i=py,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS">
-
-**Веб**
-
-<img src="https://skillicons.dev/icons?i=flask,fastapi,express,nodejs,nextjs,astro&theme=dark" alt="Flask, FastAPI, Express, Node.js, Next.js, Astro">
-
-**Данные и деплой**
-
-<img src="https://skillicons.dev/icons?i=sqlite,docker,cloudflare&theme=dark" alt="SQLite, Docker, Cloudflare"> <img src="./assets/render.svg" height="48" alt="Render">
-
-**Инструменты**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell&theme=dark" alt="Git, GitHub, VS Code, PowerShell">
+<picture>
+  <source srcset="./assets/stack.svg" media="(prefers-color-scheme: dark)">
+  <source srcset="./assets/stack-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <img src="./assets/stack.svg" alt="Stack. Languages: Python, JavaScript, TypeScript, HTML, CSS. Web: Flask, FastAPI, Express, Node.js, Next.js, Astro. Data and deploy: SQLite, Docker, Cloudflare, Render. Tools: Git, GitHub, VS Code, PowerShell." width="100%">
+</picture>
 
 ### Проекты
 
@@ -122,7 +113,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 | [triage-mvp](https://github.com/logreus-cloud/triage-mvp) | Предварительный опрос пациента: семь вопросов превращаются в карточку для врача с категорией срочности и правилами тревожных признаков | Next.js · Express · FastAPI | [живая ссылка](https://triage-web-eaj2.onrender.com/) |
 | [analog-prep](https://github.com/logreus-cloud/analog-prep) | Поиск аналогов лекарств: по названию с упаковки находит взаимозаменяемые препараты, считает цену за курс и запрещает замену там, где правила считают её опасной | Node · Express | хакатон · демо-режим |
 | [genshinflex](https://github.com/logreus-cloud/genshinflex) | Открытый справочник по Genshin Impact: билды, команды, база персонажей, трекер круток и проверка команды для Бездны под текущую ротацию | Astro · Cloudflare Pages | в работе |
-| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья: записи, графики, бэкенд на Flask и фронтенд на чистом JS | Flask · JS | работает локально |
+| [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья: записи, графики и аналитика, бэкенд на Flask и фронтенд на React | Flask · React | работает локально |
 | [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Приложение с ИИ вокруг энергетики: раздельные фронт и бэк, общий контракт API, Docker Compose | JavaScript · Docker | в работе |
 
 ### Что учу дальше

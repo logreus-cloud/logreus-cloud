@@ -1,0 +1,46 @@
+name: Activity card
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: activity
+  cancel-in-progress: false
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit activity cards
+        run: |
+          if [ -n "$(git status --porcelain -- assets/activity.svg assets/activity-light.svg)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -- assets/activity.svg assets/activity-light.svg
+            for attempt in 1 2 3; do
+              if [ "$attempt" -gt 1 ]; then
+                if ! git fetch origin "$TARGET_BRANCH"; then continue; fi
+                git reset --hard "origin/$TARGET_BRANCH"
+                python scripts/activity.py
+                git add -- assets/activity.svg assets/activity-light.svg
+              fi
+              if git diff --cached --quiet; then exit 0; fi
+              git commit -m "chore: refresh activity card"
+              if git pull --rebase origin "$TARGET_BRANCH" && git push origin "HEAD:$TARGET_BRANCH"; then
+                exit 0
+              fi
+              git rebase --abort || true
+            done
+            exit 1
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_BRANCH: ${{ github.ref_name }}
