@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 92" width="380" height="92" role="img" aria-label="Try a live demo of triage-mvp">
+  <defs><clipPath id="c"><rect width="380" height="92" rx="10"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="380" height="92" fill="#000000"/>
+    <g fill="#ffffff" opacity="0.02"><rect x="0" y="0" width="380" height="2"/><rect x="0" y="18" width="380" height="2"/><rect x="0" y="36" width="380" height="2"/><rect x="0" y="54" width="380" height="2"/><rect x="0" y="72" width="380" height="2"/><rect x="0" y="90" width="380" height="2"/></g>
+    <g stroke="#dfe6ec" fill="none" stroke-width="1">
+      <polyline stroke-opacity="0.26" points="318,0 306,26 322,46 300,72 312,92"/>
+      <polyline stroke-opacity="0.14" points="322,46 352,54 380,48"/>
+      <polyline stroke-opacity="0.10" points="306,26 284,20"/>
+    </g>
+    <g fill="#dfe6ec" opacity="0.2">
+      <polygon points="350,16 360,12 356,28"/>
+      <polygon points="276,70 286,66 280,80"/>
+    </g>
+    <rect x="22" y="18" width="52" height="20" rx="4" fill="#0b0e12" stroke="#2b333b"/>
+    <text x="48" y="32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11" letter-spacing="1.2" fill="#aab3bd">02</text>
+    <text x="86" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" fill="#6b737c">$ run</text>
+    <text x="22" y="61" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="20" letter-spacing="0.4" fill="#c3cbd3">live demo</text>
+    <rect x="0" y="18" width="3" height="56" fill="#7f9bb0" opacity="0.85"/>
+    <text x="358" y="61" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="20" fill="#aab3bd">→</text>
+    <text x="22" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11" fill="#6b737c">triage-mvp · wakes in ~1 min</text>
+    <rect x="0.5" y="0.5" width="379" height="91" rx="10" fill="none" stroke="#1e242a"/>
+  </g>
+</svg>

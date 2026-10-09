@@ -7,7 +7,9 @@
 </p>
 
 <p align="center">
-  [<a href="https://logreus-cloud.github.io/portfolio/">Portfolio</a>] [<a href="https://triage-web-eaj2.onrender.com/">Try a live demo</a>] [<a href="https://github.com/logreus-cloud?tab=repositories">All repositories</a>]
+  <a href="https://logreus-cloud.github.io/portfolio/"><picture><source srcset="./assets/link-portfolio.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/link-portfolio-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/link-portfolio.svg" alt="Portfolio" width="32%"></picture></a>
+  <a href="https://triage-web-eaj2.onrender.com/"><picture><source srcset="./assets/link-demo.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/link-demo-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/link-demo.svg" alt="Try a live demo" width="32%"></picture></a>
+  <a href="https://github.com/logreus-cloud?tab=repositories"><picture><source srcset="./assets/link-repos.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/link-repos-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/link-repos.svg" alt="All repositories" width="32%"></picture></a>
 </p>
 
 I'm a student who learns software by shipping it — small web apps, AI-assisted tools and hackathon prototypes, each one with a public URL before it gets clever.
