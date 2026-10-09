@@ -14,7 +14,8 @@ ROOT = HERE.parents[1]
 SIZE = (1200, 340)
 PHOTO_SIZE = (700, 458)
 SEED = 7
-BREATH_SCALE = 9
+BREATH_LAYERS = 6
+BREATH_SHIFT = 4.5
 BREATH_DUR = "5.2s"
 FACE = dict(cx=378, cy=135, rx=120, ry=125)
 FACE_W = 1.0
@@ -29,6 +30,7 @@ LID_KEEP_LUM = 62
 LID_TOP_PAD = 0.5
 LASH = (22, 20, 23)
 BLINK_CYCLE = "9s"
+BLINK_STARTS = [30, 82, 85.4]
 STATIC_DROPS = 60
 RUN_DROPS = 16
 TEAR_BANDS = 8
@@ -106,15 +108,21 @@ def frames(name, base, events):
     return f"@keyframes {name} {{{body}}}"
 
 
+def ramp(name, points):
+    body = " ".join(f"{number(pct)}% {{opacity:{opacity}}}"
+                    for pct, opacity in sorted([(0, 0), *points, (100, 0)]))
+    return f"@keyframes {name} {{{body}}}"
+
+
 def png_uri(image):
     stream = io.BytesIO()
     image.save(stream, format="PNG", optimize=True)
     return "data:image/png;base64," + base64.b64encode(stream.getvalue()).decode("ascii")
 
 
-def make_breath_map():
-    image = Image.new("RGBA", (175, 115))
-    pixels = image.load()
+def make_breath_masks():
+    masks = [Image.new("L", (175, 115)) for _ in range(BREATH_LAYERS)]
+    layers = [mask.load() for mask in masks]
     for py in range(115):
         for px in range(175):
             def bump(eye):
@@ -123,8 +131,10 @@ def make_breath_map():
                 t = max(0.0, min(1.0, (1 - radius) / 0.7))
                 return t * t * (3 - 2 * t)
             amount = 1 - (1 - FACE_W * bump(FACE)) * (1 - HAND_W * bump(HAND))
-            pixels[px, py] = (128, round(128 + 127 * amount), 128, 255)
-    return png_uri(image)
+            for k, pixels in enumerate(layers, 1):
+                v = max(0.0, min(1.0, amount * BREATH_LAYERS - (k - 1)))
+                pixels[px, py] = round(255 * v * v * (3 - 2 * v))
+    return [png_uri(mask) for mask in masks]
 
 
 def polyfit2(xs, ys):
@@ -440,22 +450,25 @@ def name_svg(colors, rnd):
     return "\n".join(body), "\n".join(defs), css
 
 
-def build(theme, glyphs, photo_uri, map_uri, lids):
+def build(theme, glyphs, photo_uri, mask_uris, lids):
     colors = THEMES[theme]
     rnd = random.Random(SEED)
     drops, drop_css = drops_svg(colors, rnd)
     shards, shard_css = shards_svg(colors, rnd)
     name, tear_defs, name_css = name_svg(colors, rnd)
-    half_events = [(30, 30.5, "opacity:1"), (31.6, 32.1, "opacity:1"),
-                   (82, 82.5, "opacity:1"), (83.6, 84.1, "opacity:1"),
-                   (84.4, 84.9, "opacity:1"), (86, 86.5, "opacity:1")]
-    closed_events = [(30.5, 31.6, "opacity:1"), (82.5, 83.6, "opacity:1"),
-                     (84.9, 86, "opacity:1")]
+    half_points, closed_points = [], []
+    for start in BLINK_STARTS:
+        half_points.extend(((start, 0), (start + 0.5, 1),
+                            (start + 2.3, 1), (start + 3.1, 0)))
+        closed_points.extend(((start + 0.5, 0), (start + 1.0, 1),
+                              (start + 1.7, 1), (start + 2.3, 0)))
     css = [
         "@keyframes camera {0%,100% {transform:scale(1) translate(0,0)} "
         "50% {transform:scale(1.03) translate(-4px,-2px)}}",
-        frames("lid-half", "opacity:0", half_events),
-        frames("lid-closed", "opacity:0", closed_events),
+        "@keyframes breathe {0%,100% {transform:translateY(0)} "
+        "42% {transform:translateY(var(--d))}}",
+        ramp("lid-half", half_points),
+        ramp("lid-closed", closed_points),
         "@keyframes scanmove {to {transform:translateY(18px)}}",
         "@keyframes accentPulse {0%,100% {transform:scaleX(1)} "
         "50% {transform:scaleX(.78)}}",
@@ -464,13 +477,13 @@ def build(theme, glyphs, photo_uri, map_uri, lids):
         frames("flash", "opacity:0", [(90, 91.2, f'opacity:{colors["flash_op"]}')]),
         ".photo {transform-box:fill-box;transform-origin:55% 40%;"
         "animation:camera 18s ease-in-out infinite}",
-        ".lid {opacity:0;animation-timing-function:step-end}",
-        f".lid-half {{animation:lid-half {BLINK_CYCLE} step-end infinite}}",
-        f".lid-closed {{animation:lid-closed {BLINK_CYCLE} step-end infinite}}",
+        f".br {{animation:breathe {BREATH_DUR} cubic-bezier(.45,0,.55,1) infinite}}",
+        f".lid-half {{animation:lid-half {BLINK_CYCLE} linear infinite}}",
+        f".lid-closed {{animation:lid-closed {BLINK_CYCLE} linear infinite}}",
         ".scan {animation:scanmove 2.4s linear infinite}",
         ".gl,use[style*='silhouette'] {transform-origin:66px 125px;"
         "transform-box:view-box}",
-        "@media (prefers-reduced-motion: reduce) {* {animation:none !important} .breath {filter:none}}",
+        "@media (prefers-reduced-motion: reduce) {* {animation:none !important}}",
         *drop_css, *shard_css, *name_css,
     ]
     glyph = lambda key: escape(glyphs[key], quote=True)
@@ -480,12 +493,22 @@ def build(theme, glyphs, photo_uri, map_uri, lids):
         + '"/></clipPath>' for i, p in enumerate(SLICES, 1))
     scanlines = "".join(f'<rect x="0" y="{y}" width="1200" height="2"/>'
                         for y in range(-18, 325, 18))
-    image = (f'<image href="{photo_uri}" xlink:href="{photo_uri}" x="0" y="0" '
-             f'width="700" height="458"/>')
+    mask_defs = "\n".join(
+        f'<mask id="bm{k}" maskUnits="userSpaceOnUse" x="0" y="0" '
+        f'width="700" height="458"><image href="{uri}" xlink:href="{uri}" '
+        f'x="0" y="0" width="700" height="458" preserveAspectRatio="none"/></mask>'
+        for k, uri in enumerate(mask_uris, 1))
+    image = '<use href="#photo-img" xlink:href="#photo-img"/>'
+    for k in range(1, BREATH_LAYERS + 1):
+        image += (f'<g mask="url(#bm{k})"><g class="br" '
+                  f'style="--d:-{number(BREATH_SHIFT * k / BREATH_LAYERS)}px">'
+                  '<use href="#photo-img" xlink:href="#photo-img"/></g></g>')
+    image += f'<g class="br" style="--d:-{number(BREATH_SHIFT)}px">'
     for kind in ("half", "closed"):
         uri = lids[kind]
         image += (f'<image class="lid lid-{kind}" href="{uri}" xlink:href="{uri}" '
                   f'x="300" y="98" width="160" height="44" opacity="0"/>')
+    image += "</g>"
     tag_rects = ((66, 126, "tag_hackathons"), (204, 184, "tag_ship"),
                  (400, 122, "tag_vibe"))
     tags = "\n".join(
@@ -514,13 +537,14 @@ def build(theme, glyphs, photo_uri, map_uri, lids):
 <linearGradient id="photoEdge" gradientUnits="userSpaceOnUse" x1="594" y1="0" x2="800" y2="0"><stop offset="0" stop-color="#000000"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
 <mask id="photoFade" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="340"><rect x="0" y="0" width="1200" height="340" fill="url(#photoEdge)"/></mask>
 <clipPath id="card"><rect x="0" y="0" width="1200" height="340" rx="16"/></clipPath>
-<filter id="breath" filterUnits="userSpaceOnUse" x="0" y="0" width="700" height="458" color-interpolation-filters="sRGB"><feImage href="{map_uri}" xlink:href="{map_uri}" x="0" y="0" width="700" height="458" preserveAspectRatio="none" result="map"/><feDisplacementMap in="SourceGraphic" in2="map" scale="0" xChannelSelector="R" yChannelSelector="G"><animate attributeName="scale" values="0;{BREATH_SCALE};0" keyTimes="0;0.42;1" dur="{BREATH_DUR}" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></feDisplacementMap></filter>
+<image id="photo-img" href="{photo_uri}" x="0" y="0" width="700" height="458"/>
+{mask_defs}
 {soft}
 </defs>
 <style>{" ".join(css)}</style>
 <g clip-path="url(#card)">
 <rect width="1200" height="340" fill="{colors["bg"]}"/>
-<g mask="url(#photoFade)"{photo_filter}><g class="photo"><g transform="translate(600 -26.35) scale(0.914286)"><g class="breath" filter="url(#breath)">{image}</g></g></g></g>
+<g mask="url(#photoFade)"{photo_filter}><g class="photo"><g transform="translate(600 -26.35) scale(0.914286)">{image}</g></g></g>
 <rect x="0" y="0" width="1200" height="340" fill="{colors["overlay"]}" opacity="{colors["overlay_op"]}"/>
 <rect x="0" y="0" width="1200" height="340" fill="url(#fadeL)"/>
 <rect x="0" y="0" width="1200" height="340" fill="url(#vign)"/>
@@ -551,10 +575,10 @@ def main():
         raise ValueError(f"Expected photo size {PHOTO_SIZE}, got {photo.size}")
     glyphs = json.loads((HERE / "glyphs.json").read_text(encoding="utf-8"))
     photo_uri = "data:image/jpeg;base64," + base64.b64encode(photo_bytes).decode("ascii")
-    map_uri = make_breath_map()
+    mask_uris = make_breath_masks()
     lids = make_lids(photo)
     for theme in THEMES:
-        build(theme, glyphs, photo_uri, map_uri, lids)
+        build(theme, glyphs, photo_uri, mask_uris, lids)
 
 
 if __name__ == "__main__":
