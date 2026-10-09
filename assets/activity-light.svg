@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Last shipped: portfolio, 2026-10-09. Contributions in the last 12 months: 368. Public repos: 11.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Last shipped: portfolio, 2026-10-09. Contributions in the last 12 months: 370. Public repos: 11.">
   <defs>
     <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#57606a" stop-opacity="0.09"/>
@@ -27,7 +27,7 @@
     <rect x="48" y="110" width="64" height="2" fill="#4b6a82" opacity="0.8"/>
     <rect x="118" y="110" width="390" height="2" fill="#d0d7de"/>
     <text x="48" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, &#x27;Liberation Mono&#x27;, monospace" font-size="13" fill="#6e7781">last shipped · 2026-10-09</text>
-    <text x="560" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, &#x27;Liberation Mono&#x27;, monospace" font-size="28" fill="#2f363d">368</text>
+    <text x="560" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, &#x27;Liberation Mono&#x27;, monospace" font-size="28" fill="#2f363d">370</text>
     <text x="560" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, &#x27;Liberation Mono&#x27;, monospace" font-size="13" fill="#6e7781">contributions · last 12 months</text>
     <text x="820" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, &#x27;Liberation Mono&#x27;, monospace" font-size="28" fill="#2f363d">11</text>
     <text x="820" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, &#x27;Liberation Mono&#x27;, monospace" font-size="13" fill="#6e7781">public repos</text>
