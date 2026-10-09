@@ -12,9 +12,15 @@
 
 I'm a student who learns software by shipping it — small web apps, AI-assisted tools and hackathon prototypes, each one with a public URL before it gets clever.
 
-> [!NOTE]
->
-> **Deploy first, get clever later.** Everything listed below actually runs; the rest is private or too rough to show. If something here is useful to you — or you need one more person for a hackathon team — open an issue in any repo and say hi.
+<p align="center">
+  <picture>
+    <source srcset="./assets/rule.svg" media="(prefers-color-scheme: dark)">
+    <source srcset="./assets/rule-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <img src="./assets/rule.svg" alt="Rule 01: deploy first, get clever later. Everything below actually runs; the rest is private or too rough to show." width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>Found something useful, or need one more person for a hackathon team? Open an issue in any repo and say hi.</sub></p>
 
 ### About
 
