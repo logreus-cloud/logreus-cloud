@@ -1,25 +1,26 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Ligreus — student developer, learning in public" width="100%">
+  <picture>
+    <source srcset="./assets/banner.svg" media="(prefers-color-scheme: dark)">
+    <source srcset="./assets/banner-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <img src="./assets/banner.svg" alt="Ligreus — student developer, learning in public" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/student-learning%20in%20public-0b0e12?style=flat-square&labelColor=000000" alt="student">
-  <img src="https://img.shields.io/badge/focus-web%20apps%20%C2%B7%20ai%20tooling-0b0e12?style=flat-square&labelColor=000000" alt="focus">
-  <a href="https://github.com/logreus-cloud?tab=repositories"><img src="https://img.shields.io/badge/all%20repos-%E2%86%92-0b0e12?style=flat-square&labelColor=000000" alt="all repos"></a>
+  [<a href="https://logreus-cloud.github.io/portfolio/">Portfolio</a>] [<a href="https://triage-web-eaj2.onrender.com/">Try a live demo</a>] [<a href="https://github.com/logreus-cloud?tab=repositories">All repositories</a>]
 </p>
 
----
+I'm a student who learns software by shipping it — small web apps, AI-assisted tools and hackathon prototypes, each one with a public URL before it gets clever.
+
+> [!NOTE]
+>
+> **Deploy first, get clever later.** Everything listed below actually runs; the rest is private or too rough to show. If something here is useful to you — or you need one more person for a hackathon team — open an issue in any repo and say hi.
 
 ### About
 
 <img align="right" width="200" src="./assets/loop.gif" alt="Looping black-and-white anime-style portrait">
 
-I'm a student learning to build software by shipping it. Most of what you see here started as a
-weekend idea, a practice task, or a hackathon prototype — small web apps, AI-assisted tools, and
-experiments that taught me something even when they didn't survive.
-
-My rule of thumb: **deploy first, get clever later.** A working public URL on day one beats a
-perfect codebase nobody can open.
+Most of it started as a weekend idea, a practice task or a hackathon prototype, and each one taught me something even when it didn't survive. A working public URL on day one beats a perfect codebase nobody can open.
 
 ### What I'm working on
 
@@ -47,8 +48,6 @@ perfect codebase nobody can open.
 <img src="https://skillicons.dev/icons?i=git,github,vscode,powershell&theme=dark" alt="Git, GitHub, VS Code, PowerShell">
 
 ### Projects
-
-Only what actually runs — the rest is private or too rough to show.
 
 | Project | What it is | Stack | State |
 | --- | --- | --- | --- |
@@ -121,6 +120,6 @@ Only what actually runs — the rest is private or too rough to show.
 
 </details>
 
-<p align="center">
-  <sub>Always mid-project — say hi if anything here is useful to you</sub>
-</p>
+## [github.com/logreus-cloud/genshinflex](https://github.com/logreus-cloud/genshinflex) my longest-running build — an open Genshin guide: builds, teams, a pull tracker and a community forum.
+
+> The same projects, one card each, live on [the portfolio site](https://logreus-cloud.github.io/portfolio/).
