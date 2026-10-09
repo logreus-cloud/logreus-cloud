@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Правило 01: сначала деплой, потом красота. Всё ниже реально работает; остальное приватно или слишком сырое.">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#57606a" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#57606a" stop-opacity="0.02"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="150" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="150" fill="#f6f8fa"/>
+    <g fill="#1f2328" opacity="0.018"><rect x="0" y="0" width="1200" height="2"/><rect x="0" y="18" width="1200" height="2"/><rect x="0" y="36" width="1200" height="2"/><rect x="0" y="54" width="1200" height="2"/><rect x="0" y="72" width="1200" height="2"/><rect x="0" y="90" width="1200" height="2"/><rect x="0" y="108" width="1200" height="2"/><rect x="0" y="126" width="1200" height="2"/><rect x="0" y="144" width="1200" height="2"/></g>
+
+    <!-- fracture running down the right side -->
+    <g stroke="#57606a" fill="none" stroke-width="1">
+      <polyline stroke-opacity="0.30" points="968,0 952,34 974,58 948,92 962,118 944,150"/>
+      <polyline stroke-opacity="0.16" points="974,58 1010,70 1046,62"/>
+      <polyline stroke-opacity="0.14" points="948,92 914,104 890,98"/>
+      <polyline stroke-opacity="0.10" points="952,34 924,26"/>
+    </g>
+    <g stroke="#57606a" stroke-opacity="0.2" stroke-width="1">
+      <polygon points="1010,22 1052,12 1042,46 1004,44" fill="url(#glass)"/>
+      <polygon points="1096,92 1130,84 1124,122 1090,116" fill="url(#glass)"/>
+      <polygon points="872,118 904,128 880,142" fill="url(#glass)"/>
+    </g>
+    <g fill="#57606a" opacity="0.22">
+      <polygon points="1160,40 1170,36 1166,52"/>
+      <polygon points="1066,128 1078,124 1070,140"/>
+    </g>
+
+    <!-- text -->
+    <rect x="48" y="30" width="124" height="24" rx="4" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="110" y="46.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5" fill="#57606a">ПРАВИЛО · 01</text>
+    <text x="190" y="49" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" fill="#6e7781">// главное правило</text>
+
+    <text x="48" y="94" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="28" letter-spacing="0.5" fill="#2f363d">сначала деплой, потом красота.</text>
+    <rect x="48" y="110" width="64" height="2" fill="#4b6a82" opacity="0.8"/>
+    <rect x="118" y="110" width="420" height="2" fill="#d0d7de"/>
+    <text x="48" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" fill="#6e7781">всё ниже реально работает · остальное приватно или слишком сырое</text>
+
+    <rect x="0.5" y="0.5" width="1199" height="149" rx="12" fill="none" stroke="#d0d7de"/>
+  </g>
+</svg>

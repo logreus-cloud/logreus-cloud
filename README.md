@@ -39,7 +39,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="Python, JavaScript, HTML, CSS">
+<img src="https://skillicons.dev/icons?i=py,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS">
 
 **Web**
 
@@ -72,14 +72,21 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 <details>
 <summary><b>По-русски</b></summary>
 
+Я студент и учусь разработке, выпуская проекты: небольшие веб-приложения, инструменты с ИИ и прототипы с хакатонов. У каждого появляется публичная ссылка раньше, чем красивый код.
+
+<p align="center">
+  <picture>
+    <source srcset="./assets/rule-ru.svg" media="(prefers-color-scheme: dark)">
+    <source srcset="./assets/rule-ru-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <img src="./assets/rule-ru.svg" alt="Правило 01: сначала деплой, потом красота. Всё ниже реально работает; остальное приватно или слишком сырое." width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>Нашли что-то полезное или нужен ещё один человек в команду на хакатон? Откройте issue в любом репозитории и напишите.</sub></p>
+
 ### О себе
 
-Студент. Учусь разрабатывать, разрабатывая: почти всё здесь начиналось как идея на выходные,
-учебная задача или прототип с хакатона — небольшие веб-приложения, инструменты с ИИ и
-эксперименты, которые чему-то научили, даже если не выжили.
-
-Принцип простой: **сначала деплой, потом красота.** Рабочая публичная ссылка в первый день
-полезнее идеального кода, который никто не может открыть.
+Почти всё здесь начиналось как идея на выходные, учебная задача или прототип с хакатона, и каждый проект чему-то научил, даже если не выжил. Рабочая публичная ссылка в первый день полезнее идеального кода, который никто не может открыть.
 
 ### Чем занят сейчас
 
@@ -92,7 +99,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 **Языки**
 
-<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" alt="Python, JavaScript, HTML, CSS">
+<img src="https://skillicons.dev/icons?i=py,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS">
 
 **Веб**
 
@@ -107,8 +114,6 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,powershell&theme=dark" alt="Git, GitHub, VS Code, PowerShell">
 
 ### Проекты
-
-Здесь только то, что действительно работает — остальное приватно или слишком сырое.
 
 | Проект | Что это | Стек | Состояние |
 | --- | --- | --- | --- |
