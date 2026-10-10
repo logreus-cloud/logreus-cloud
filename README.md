@@ -42,7 +42,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 <picture>
   <source srcset="./assets/stack.svg" media="(prefers-color-scheme: dark)">
   <source srcset="./assets/stack-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <img src="./assets/stack.svg" alt="Stack. Languages: Python, JavaScript, TypeScript, HTML, CSS. Web: Flask, FastAPI, Express, Node.js, Next.js, Astro. Data and deploy: SQLite, Docker, Cloudflare, Render. Tools: Git, GitHub, VS Code, PowerShell." width="100%">
+  <img src="./assets/stack.svg" alt="Stack. Languages: Python, C#, Kotlin, Java, Rust, JavaScript, TypeScript, HTML, CSS. Web: Flask, FastAPI, Express, Node.js, Next.js, Astro, Vue, .NET. Data and deploy: SQLite, Docker, Cloudflare, Render. Tools: Git, GitHub, VS Code, PowerShell." width="100%">
 </picture>
 
 ### Projects
@@ -103,7 +103,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 <picture>
   <source srcset="./assets/stack.svg" media="(prefers-color-scheme: dark)">
   <source srcset="./assets/stack-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <img src="./assets/stack.svg" alt="Stack. Languages: Python, JavaScript, TypeScript, HTML, CSS. Web: Flask, FastAPI, Express, Node.js, Next.js, Astro. Data and deploy: SQLite, Docker, Cloudflare, Render. Tools: Git, GitHub, VS Code, PowerShell." width="100%">
+  <img src="./assets/stack.svg" alt="Stack. Languages: Python, C#, Kotlin, Java, Rust, JavaScript, TypeScript, HTML, CSS. Web: Flask, FastAPI, Express, Node.js, Next.js, Astro, Vue, .NET. Data and deploy: SQLite, Docker, Cloudflare, Render. Tools: Git, GitHub, VS Code, PowerShell." width="100%">
 </picture>
 
 ### Проекты
