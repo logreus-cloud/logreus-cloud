@@ -32,7 +32,8 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 ### What I'm working on
 
-- Building small web apps with **Flask** and **Express**, deployed on **Render** and **Cloudflare Pages**
+- Growing **GenshinFlex** from a guide site into a platform: forum, private messages, an interactive map, role-based rankings and a Windows overlay in **Rust** and **Tauri**
+- Contributing to open source: weapons merged into [gcsim](https://github.com/genshinsim/gcsim) in **Go**, one new character in review
 - Learning where an LLM genuinely helps — and where plain deterministic rules do the job better
 - Writing the core parts myself instead of configuring them: a BM25 search engine, a Markdown → DOCX pipeline
 - Preparing for hackathons: a reusable project template, deploy in under an hour, a demo that holds up
@@ -48,7 +49,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 ### Projects
 
 <p>
-  <a href="https://github.com/logreus-cloud/genshinflex"><picture><source srcset="./assets/cards/genshinflex.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/genshinflex-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/genshinflex.svg" alt="genshinflex: open Genshin Impact guide with builds, teams, a pull tracker and a community forum. Astro, in progress." width="49%"></picture></a>
+  <a href="https://github.com/logreus-cloud/genshinflex"><picture><source srcset="./assets/cards/genshinflex.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/genshinflex-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/genshinflex.svg" alt="genshinflex: open Genshin Impact guide with builds, teams, a pull tracker, an interactive map and a community forum. Astro, in progress." width="49%"></picture></a>
   <a href="https://github.com/logreus-cloud/notabene"><picture><source srcset="./assets/cards/notabene.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/notabene-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/notabene.svg" alt="notabene: full-text search over your own notes, hand-written BM25, Russian and English stemming. Python, CI, works." width="49%"></picture></a>
 </p>
 <p>
@@ -60,7 +61,7 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
   <a href="https://github.com/logreus-cloud/HealthTrackerFlask"><picture><source srcset="./assets/cards/healthtrackerflask.svg" media="(prefers-color-scheme: dark)"><source srcset="./assets/cards/healthtrackerflask-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"><img src="./assets/cards/healthtrackerflask.svg" alt="HealthTrackerFlask: health tracking with charts, Flask backend and React frontend. Runs locally." width="49%"></picture></a>
 </p>
 
-<sub>Live demo: [triage-mvp](https://triage-web-eaj2.onrender.com/) (free Render plan, first load takes up to a minute) · also on GitHub: [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI), [portfolio](https://github.com/logreus-cloud/portfolio)</sub>
+<sub>Live demo: [triage-mvp](https://triage-web-eaj2.onrender.com/) (free Render plan, first load takes up to a minute) · also on GitHub: [TextFlow](https://github.com/logreus-cloud/TextFlow), [subbota](https://github.com/logreus-cloud/subbota), [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI), [portfolio](https://github.com/logreus-cloud/portfolio)</sub>
 
 <picture>
   <source srcset="./assets/activity.svg" media="(prefers-color-scheme: dark)">
@@ -93,7 +94,8 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 ### Чем занят сейчас
 
-- Собираю небольшие веб-приложения на **Flask** и **Express**, деплою на **Render** и **Cloudflare Pages**
+- Развиваю **GenshinFlex** из сайта с гайдами в платформу: форум, личные сообщения, интерактивная карта, рейтинг по ролям и оверлей для Windows на **Rust** и **Tauri**
+- Участвую в открытых проектах: оружие в [gcsim](https://github.com/genshinsim/gcsim) на **Go** уже принято, новый персонаж на ревью
 - Разбираюсь, где языковая модель действительно помогает, а где обычные детерминированные правила работают лучше
 - Пишу ключевые части сам, а не настраиваю готовые: поисковый движок на BM25, конвейер Markdown → DOCX
 - Готовлюсь к хакатонам: переиспользуемый шаблон проекта, деплой меньше чем за час, демо, которое не разваливается
@@ -114,8 +116,10 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 | [labgen](https://github.com/logreus-cloud/labgen) | Пишешь отчёт по лабе в Markdown — получаешь DOCX по ГОСТ 7.32-2017: нумерация рисунков и таблиц, содержание, Word не нужен | Python | CI · работает |
 | [triage-mvp](https://github.com/logreus-cloud/triage-mvp) | Предварительный опрос пациента: семь вопросов превращаются в карточку для врача с категорией срочности и правилами тревожных признаков | Next.js · Express · FastAPI | [живая ссылка](https://triage-web-eaj2.onrender.com/) |
 | [analog-prep](https://github.com/logreus-cloud/analog-prep) | Поиск аналогов лекарств: по названию с упаковки находит взаимозаменяемые препараты, считает цену за курс и запрещает замену там, где правила считают её опасной | Node · Express | хакатон · демо-режим |
-| [genshinflex](https://github.com/logreus-cloud/genshinflex) | Открытый справочник по Genshin Impact: билды, команды, база персонажей, трекер круток и проверка команды для Бездны под текущую ротацию | Astro · Cloudflare Pages | в работе |
+| [genshinflex](https://github.com/logreus-cloud/genshinflex) | Открытый справочник по Genshin Impact: билды, команды, рейтинг, симулятор, карта, трекер круток, форум и оверлей для ПК | Astro · Cloudflare · Supabase · Tauri | [живая ссылка](https://genshinflex.com) |
 | [HealthTrackerFlask](https://github.com/logreus-cloud/HealthTrackerFlask) | Трекер здоровья: записи, графики и аналитика, бэкенд на Flask и фронтенд на React | Flask · React | работает локально |
+| [TextFlow](https://github.com/logreus-cloud/TextFlow) | Визуальный конструктор текстовых макетов в духе Figma: холст, текст, таблицы, привязка к JSON и экспорт в HTML | Vue · Vite | работает локально |
+| [subbota](https://github.com/logreus-cloud/subbota) | Локальный голосовой ассистент для Windows 11: работает в фоне, отвечает через Claude Code, события показывает в веб-панели | Python · TypeScript | работает локально |
 | [EnergyMind-AI](https://github.com/logreus-cloud/EnergyMind-AI) | Приложение с ИИ вокруг энергетики: раздельные фронт и бэк, общий контракт API, Docker Compose | JavaScript · Docker | в работе |
 
 ### Что учу дальше
@@ -124,6 +128,6 @@ Most of it started as a weekend idea, a practice task or a hackathon prototype, 
 
 </details>
 
-## [github.com/logreus-cloud/genshinflex](https://github.com/logreus-cloud/genshinflex) my longest-running build — an open Genshin guide: builds, teams, a pull tracker and a community forum.
+## [github.com/logreus-cloud/genshinflex](https://github.com/logreus-cloud/genshinflex) my longest-running build — an open Genshin guide: builds, teams, rankings, a map, a pull tracker, a forum and a desktop overlay.
 
 > The same projects, one card each, live on [the portfolio site](https://logreus-cloud.github.io/portfolio/).
